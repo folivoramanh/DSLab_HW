@@ -1,4 +1,7 @@
-PS C:\Users\LENOVO> cd "C:\Users\LENOVO\OneDrive - National Economics University\Manh and DSEB\advanced-git-exercises"                                   PS C:\Users\LENOVO\OneDrive - National Economics University\Manh and DSEB\advanced-git-exercises> curl https://api.github.com/users/nnja
+
+PS C:\Users\LENOVO> cd "C:\Users\LENOVO\OneDrive - National Economics University\Manh and DSEB\advanced-git-exercises"  
+                                 
+PS C:\Users\LENOVO\OneDrive - National Economics University\Manh and DSEB\advanced-git-exercises> curl https://api.github.com/users/nnja
 
 
 StatusCode        : 200
@@ -43,6 +46,7 @@ InputFields       : {}
 Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 RawContentLength  : 1218
+
 
 
 
@@ -95,6 +99,7 @@ RawContentLength  : 1218
 
 
 
+
 PS C:\Users\LENOVO\OneDrive - National Economics University\Manh and DSEB\advanced-git-exercises> Invoke-WebRequest -URI "https://api.github.com/search/repositories?q=user:nnja&sort=stars&per_page=1" | Select-String "stargazers_count"
 
 {"total_count":49,"incomplete_results":false,"item
@@ -107,7 +112,8 @@ nt.com/u/2030983?v=4","gravatar_id":"","url":"http
 s://api.github.com/users/nnja","html_url":"https:/
 /github.com/nnja","followers_url":"https://api.git
 hub.com/users/nnja/followers","following_url":"htt
-ps://api.github.com/users/nnja/following{/other_us
+
+PS://api.github.com/users/nnja/following{/other_us
 er}","gists_url":"https://api.github.com/users/nnj
 a/gists{/gist_id}","starred_url":"https://api.gith
 ub.com/users/nnja/starred{/owner}{/repo}","subscri
@@ -136,7 +142,8 @@ advanced-git/events","assignees_url":"https://api.
 github.com/repos/nnja/advanced-git/assignees{/user
 }","branches_url":"https://api.github.com/repos/nn
 ja/advanced-git/branches{/branch}","tags_url":"htt
-ps://api.github.com/repos/nnja/advanced-git/tags",
+
+PS://api.github.com/repos/nnja/advanced-git/tags",
 "blobs_url":"https://api.github.com/repos/nnja/adv
 anced-git/git/blobs{/sha}","git_tags_url":"https:/
 /api.github.com/repos/nnja/advanced-git/git/tags{/
@@ -194,6 +201,7 @@ _issues":1,"watchers":726,"default_branch":"master
 ","score":1.0}]}
 
 
+
 PS C:\Users\LENOVO\OneDrive - National Economics University\Manh and DSEB\advanced-git-exercises> curl "https://api.github.com/repos/nodejs/node/languages"
 
 
@@ -244,6 +252,7 @@ InputFields       : {}
 Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 RawContentLength  : 217
+
 
 
 
